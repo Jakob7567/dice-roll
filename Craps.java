@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Craps here.
+ * Driver class for the game of craps
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @Jakob L.
+ * @version 9/03/21
  */
 public class Craps
 {    
