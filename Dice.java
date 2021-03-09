@@ -9,7 +9,7 @@ public class Dice
 {
     // Fields
     private int roll;
-    private final int SIDES = 6;
+    private final int SIDES = 7;
     
     /**
      * Setup the dice by rolling it initially
@@ -24,7 +24,7 @@ public class Dice
      */
     public void Roll()
     {
-        roll = (int) (Math.random() * SIDES);
+        roll = 1 + (int) (Math.random() * SIDES);
     }
     
     /**
